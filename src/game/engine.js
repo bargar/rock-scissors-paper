@@ -18,6 +18,8 @@ const validateMoves = (...moves) => {
 };
 
 const engine = {
+  MOVES,
+
   // get random move
   move: () => MOVES[Math.ceil(Math.random(1) * 3) - 1],
 
